@@ -1,0 +1,91 @@
+<html lang="en">
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Case Study 1</title>
+            <!--External CSS-->
+            <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    
+    <!--Load properties.json file using Ajax call on onload event-->
+    <body onload="populateText()"> 
+                   
+    <!--     
+        Build a portfolio as given in the template
+    -->  
+        <!--External Libraries-->  
+        <!--Jquery for Ajax-->
+        <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+        <!--Custom Javascript-->
+        <script src="script.js"></script>
+        
+        <div id="mainLeft">
+        <!--Use SVG concept for creating custom image with text-->
+                <svg id="box">
+                        <rect />
+                        <text id="t1" x="20" y="65" font-weight="bold" font-size="18"></text>
+                        <text id="t2" x="20" y="90" font-weight="bold" font-size="18"></text>
+                        <text id="t3" x="20" y="130" font-weight="normal" font-size="15"></text>
+                        <text id="t4" x="20" y="170" font-weight="normal" font-size="15"></text>
+                        <text id="t5" x="20" y="190" font-weight="normal" font-size="15"></text>
+                        <text id="t6" x="20" y="210" font-weight="normal" font-size="15"></text>
+                        <text id="t7" x="20" y="230" font-weight="normal" font-size="15"></text>
+                        <text id="t8" x="20" y="250" font-weight="normal" font-size="15"></text>
+                        <text id="t9" x="20" y="270" font-weight="normal" font-size="15"></text>
+                </svg>
+                <svg id="triangle">
+                    <polygon points="0,0, 370,0, 0,240" />
+                </svg>      
+                <div id="infoBlankSpace" ></div>
+
+            <div id="persHighlightsCaption">
+            <!--Static Text-->    
+                    <p><strong>PERSONALITY HIGHLIGHTS</strong></p> 
+            </div>
+            <div id="persHighlights"> 
+            <!--Dynamic Text-->    
+                    <div id="persHighlightsText"></div>
+                    <div id="persHighlightsBlankSpace"> </div>
+            </div>
+            <div id="contactDetailsCaption">
+            <!--Static Text-->    
+                    <p><strong>CONTACT DETAILS</strong></p>
+            </div>
+            <div id="contactDetails">  
+            <!--Dynamic Text-->      
+                    <div id="contactDetailsText"></div>
+            </div>
+        </div> <!--End mainLeft-->
+    
+        <div id="mainRight"><!--Start mainRight-->
+            <div id="basicInfo">
+            <!--Static Text-->    
+                <p><strong>BASIC</strong></p>
+                <p><strong>INFORMATION</strong></p>
+                <hr>
+            <!--Dynamic Text-->  
+                <div id="basicInfoText"></div>
+                <div id="basicInfoBlankSpace"></div>    
+            </div>
+            <div id="education">
+            <!--Static Text-->    
+                    <p><strong>EDUCATION</strong></p>
+                    <hr>
+            <!--Dynamic Text-->          
+                    <div id="educationText"></div>   
+                    <div id="educationBlankSpace"></div>                     
+            </div>
+            <div id="experience">
+            <!--Static Text-->    
+                    <p><strong>PROFESSIONAL EXPERIENCE</strong></p>
+                    <hr>
+                    <div id="experienceBlankSpace"></div>
+            <!--Dynamic Text-->          
+                    <div id="experienceText"></div> 
+            </div>
+        </div> <!--End mainRight-->
+
+    </body>
+</html>

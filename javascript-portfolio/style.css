@@ -1,0 +1,76 @@
+#mainLeft {
+    float: left;
+    width: 25%;
+    background-color: #d3d3d3;
+}
+
+#box {
+    width: 100%;
+    height: 280;
+}
+
+#triangle {
+    width: 100%;
+    height: 270;
+}
+
+polygon {
+    fill: #787D78;
+}
+
+rect {
+    width: 100%;
+    height: 280;
+    fill: #787D78;
+}
+
+text {
+    fill: #ffffff;
+    font-family: "Arial";
+}
+#Info, #persHighlights, #contactDetails {
+    padding-left: 20px;
+}
+
+#infoBlankSpace {
+    padding-bottom: 40px;
+}
+#persHighlightsCaption, #contactDetailsCaption {
+    background-color: #787D78;
+    border: 1px solid #787D78;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+#mainRight {
+    padding-top: 30px;
+    float: right;
+    width: 72.5%;
+    padding-right: 10px;
+
+}
+
+#basicInfoBlankSpace {
+    padding-bottom: 50px;
+}
+
+#educationBlankSpace {
+    padding-bottom: 80px;
+}
+
+#experienceBlankSpace, #persHighlightsBlankSpace {
+    padding-bottom: 25px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #808080; /* old IE */
+    background-color: #808080; /* Modern Browsers */
+}
+
+body{
+    margin: 0;
+}
+
